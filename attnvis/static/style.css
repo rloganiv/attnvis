@@ -1,10 +1,10 @@
 body {
     font-family: sans-serif;
-    background: #e0e9eb;
+    background: #adadad;
 }
 
 a, h1, h2 {
-    color: #40a4b2;
+    color: #3e404c;
 }
 
 h1 {
@@ -17,9 +17,9 @@ h1 {
 .page {
     margin: 2em auto;
     width: 35em;
-    border: 5px solid #40a4b2;
+    border: 5px solid #3e404c;
     padding: 0.8em;
-    background: #fafafa;
+    background: #efefef;
 }
 
 .data-view {
@@ -28,6 +28,8 @@ h1 {
 
 .data-view dl {
     margin: 2.0em;
+    color: #3e404c;
+
 }
 
 .data-view dt, dd {

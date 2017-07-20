@@ -3,10 +3,20 @@
 <dl>
     <dt>Title:
     <dd>
-        {{ title }}
+    {% for span in title_spans %}
+        <span style="background-color:{{ span.color }};">
+            {{ span.text }}
+        </span>
+    {% endfor %}
+
     <dt>Description:
     <dd>
-        {{ description }}
+    {% for span in description_spans %}
+        <span style="background-color:{{ span.color }};">
+            {{ span.text }}
+        </span>
+    {% endfor %}
+
     <dt>Attribute Query:
     <dd>
         {{ attribute }}
