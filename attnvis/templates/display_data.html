@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<dl>
+    <dt>Title:
+    <dd>
+        {{ title }}
+    <dt>Description:
+    <dd>
+        {{ description }}
+    <dt>Attribute Query:
+    <dd>
+        {{ attribute }}
+    <dt>Predicted Values:
+    <dd>
+        <ul>
+            {% for prediction in predictions %}
+            <li>{{ prediction.value }} - {{ prediction.prob }}
+            {% endfor %}
+        </ul>
+</dl>
+{% endblock %}

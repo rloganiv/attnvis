@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background: #e0e9eb;
+}
+
+a, h1, h2 {
+    color: #40a4b2;
+}
+
+h1 {
+    font-family: 'Georgia';
+    serif;
+    margin: 0;
+    border-bottom: 2px solid #3e404c;
+}
+
+.page {
+    margin: 2em auto;
+    width: 35em;
+    border: 5px solid #40a4b2;
+    padding: 0.8em;
+    background: #fafafa;
+}
+
+.data-view {
+    margin: 2em auto;
+}
+
+.data-view dl {
+    margin: 2.0em;
+}
+
+.data-view dt, dd {
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.data-view dt {
+    font-weight: bold;
+}
+
+.data-view dd {
+    font-family: monospace;
+}
+
+
+input[type=text], textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: monospace;
+}

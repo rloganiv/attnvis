@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+    <form action="{{ url_for('render') }}" method=post>
+        <dl>
+            <dt>Title:
+            <dd> <input type=text name=title>
+
+            <dt>Description:
+            <dd> <textarea rows=5 name=description></textarea>
+
+            <dt>Attribute Query:
+            <dd> <input type=text name=attribute>
+
+            <dd> <input type=submit value=Submit>
+        </dl>
+    </form>
+{% endblock %}
