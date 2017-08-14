@@ -57,7 +57,7 @@ def _rgb_to_hex(x):
     assert len(x) == 3
     x = x.astype(int)
     hex_vals = tuple('%0.2x' % num for num in x)
-    hex_string = "#%s%s%s" % hex_vals
+    hex_string = '#%s%s%s' % hex_vals
     return hex_string
 
 
@@ -93,4 +93,5 @@ def generate_spans(title,
     description_spans = [Span(text, color) for text, color in zipped]
 
     return title_spans, description_spans
+
 
